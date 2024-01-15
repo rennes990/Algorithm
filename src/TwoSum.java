@@ -6,21 +6,16 @@ import java.util.HashMap;
  * Package: PACKAGE_NAME
  * Description: 力扣两数之和
  *
- * @Author sjystart
- * @Create 2023/12/25 11:01
- * @Version 1.0
  */
 public class TwoSum {
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        TwoSum ts = new TwoSum();
         int[] nums = new int[]{2,7,11,15};
         int target = 9;
-        int[] result = sol.twoSum(nums, target);
+        int[] result = ts.twoSum(nums, target);
         System.out.println(Arrays.toString(result));
     }
-}
 
-class Solution {
     public int[] twoSum(int[] nums, int target) {
         //TODO 1. 将数组数据存入哈希表，key为数据，value为数组下标
         HashMap<Integer, Integer> map = new HashMap<>();
@@ -38,3 +33,4 @@ class Solution {
         return null;
     }
 }
+
