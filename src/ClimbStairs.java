@@ -1,8 +1,9 @@
 /**
  * ClassName: ClimbStairs
- * Package: PACKAGE_NAME
  * Description:
  *
+ * @author sjystart
+ * @create 2024/1/15 11:45
  */
 public class ClimbStairs {
     public static void main(String[] args) {
